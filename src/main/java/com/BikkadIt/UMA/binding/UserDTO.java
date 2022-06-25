@@ -30,5 +30,6 @@ private Integer userId;
 	private String userState;
 	@NotEmpty
 	private String userCity;
+	
 
 }
