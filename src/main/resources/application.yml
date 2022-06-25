@@ -6,6 +6,9 @@ spring:
     password: root
     url: jdbc:mysql://localhost/user_Management_System
     username: root
+  mvc: 
+    pathmatch: 
+      matching-strategy: ant-path-matcher
   jpa:
     hibernate:
       ddl-auto: update
@@ -13,8 +16,9 @@ spring:
       hibernate:
         dialect: org.hibernate.dialect.MySQL5Dialect
     show-sql: true
-    
-    UMAP1:
+   
+  
+    umap1:
      messages: 
        saveSuccess = contact saved successfully
        saveFail = Contact Failed to save

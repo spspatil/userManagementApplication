@@ -9,7 +9,7 @@ import org.springframework.context.annotation.Configuration;
 
 @Configuration
 @EnableConfigurationProperties
-@ConfigurationProperties(prefix = "UMAP1")
+@ConfigurationProperties(prefix = "umap1")
 public class AppProperties {
 	
 	private Map<String, String> messages=new HashMap<>();
