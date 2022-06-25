@@ -30,6 +30,67 @@ private Integer userId;
 	private String userState;
 	@NotEmpty
 	private String userCity;
+	public Integer getUserId() {
+		return userId;
+	}
+	public void setUserId(Integer userId) {
+		this.userId = userId;
+	}
+	public String getUserFirstName() {
+		return userFirstName;
+	}
+	public void setUserFirstName(String userFirstName) {
+		this.userFirstName = userFirstName;
+	}
+	public String getUserLastName() {
+		return userLastName;
+	}
+	public void setUserLastName(String userLastName) {
+		this.userLastName = userLastName;
+	}
+	public String getUserEmail() {
+		return userEmail;
+	}
+	public void setUserEmail(String userEmail) {
+		this.userEmail = userEmail;
+	}
+	public String getUserPhNo() {
+		return userPhNo;
+	}
+	public void setUserPhNo(String userPhNo) {
+		this.userPhNo = userPhNo;
+	}
+	public String getUserDOB() {
+		return userDOB;
+	}
+	public void setUserDOB(String userDOB) {
+		this.userDOB = userDOB;
+	}
+	public String getGender() {
+		return gender;
+	}
+	public void setGender(String gender) {
+		this.gender = gender;
+	}
+	public String getUserCountry() {
+		return userCountry;
+	}
+	public void setUserCountry(String userCountry) {
+		this.userCountry = userCountry;
+	}
+	public String getUserState() {
+		return userState;
+	}
+	public void setUserState(String userState) {
+		this.userState = userState;
+	}
+	public String getUserCity() {
+		return userCity;
+	}
+	public void setUserCity(String userCity) {
+		this.userCity = userCity;
+	}
 	
 
+	
 }

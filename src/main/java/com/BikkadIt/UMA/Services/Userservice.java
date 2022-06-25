@@ -2,13 +2,14 @@ package com.BikkadIt.UMA.Services;
 
 import java.util.List;
 
+import com.BikkadIt.UMA.Models.User;
 import com.BikkadIt.UMA.binding.UserDTO;
 
 public interface Userservice {
 	
 	
 	//create
-	UserDTO createUser(UserDTO user);
+	User createUser(UserDTO user);
 	
 	//update 
 	UserDTO updateUser(UserDTO user, Integer userId);
