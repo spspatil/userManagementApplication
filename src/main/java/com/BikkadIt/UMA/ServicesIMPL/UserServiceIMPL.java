@@ -23,14 +23,14 @@ public class UserServiceIMPL implements Userservice{
 	private ModelMapper modelMapper;
 
 	@Override
-	public User createUser(UserDTO userDTO) {
+	public UserDTO createUser(UserDTO userDTO) {
 		// TODO Auto-generated method stub
 		
 		User user = this.modelMapper.map(userDTO, User.class);
 		
 		
 		User save = this.userRepo.save(user);
-		return save;
+		return this.modelMapper.map(save, UserDTO.class);
 	}
 
 	@Override

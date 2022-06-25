@@ -13,3 +13,11 @@ spring:
       hibernate:
         dialect: org.hibernate.dialect.MySQL5Dialect
     show-sql: true
+    
+    UMAP1:
+     messages: 
+       saveSuccess = contact saved successfully
+       saveFail = Contact Failed to save
+       Deleted = contact Deleted successfully
+       NotDeleted = contact Not Deleted
+ 
